@@ -1,0 +1,23 @@
+{
+  "name": "bubblecoin",
+  "version": "0.0.0",
+  "description": "A simple Cryptocurrency implemented in nodejs",
+  "main": "src/bubblecoin-node.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "sh ./test/test.sh"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "bitcoin"
+  ],
+  "author": "David Watson",
+  "license": "MIT",
+  "dependencies": {
+    "jsrsasign": "^8.0.4",
+    "threadpool-js": "^0.5.0",
+    "threads": "^0.10.0"
+  }
+}

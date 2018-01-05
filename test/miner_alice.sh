@@ -1,0 +1,1 @@
+while true; do POST=8082 HOST=localhost ADDRESS=0436de3557f3d390b741edefe8ae1f904c1c9818e2b6288b61ac7b27f505ac9b9054f6fbb856cb52ab69a022afe330b9a48ff17b97defc1d4008627b71667d4551 node ./src/bubblecoin-miner.js; sleep 3; done
