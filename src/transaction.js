@@ -1,3 +1,4 @@
+"use strict";
 const DSA = require('jsrsasign');
 const uuidv1 = require('uuid/v1');
 

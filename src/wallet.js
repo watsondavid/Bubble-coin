@@ -1,3 +1,4 @@
+"use strict";
 const Keys = require('./keys.js');
 const Transaction = require('./transaction.js');
 

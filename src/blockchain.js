@@ -1,3 +1,4 @@
+"use strict";
 const SHA256 = require( "crypto-js/sha256" );
 /**
  * @class Block
@@ -73,7 +74,7 @@ var calculateHashForBlock = ( block ) => {
  */
 var validateHash = (hash) => {
 	var difficulty = 2;
-	for(i = 0; i < difficulty; i++) {
+	for(var i = 0; i < difficulty; i++) {
 		if( hash[i] !== '0' ) {
 			return false;
 		}

@@ -1,3 +1,4 @@
+"use strict";
 const Threads = require('threads');
 const http = require('http');
 
@@ -44,8 +45,8 @@ class Miner {
 /*
  *	Get Environment variables.
  */
-var port = parseInt(process.env.PORT) || 8081;
-var host = process.env.HOST || localhost;
+var port = parseInt(process.env.PORT) || 8080;
+var host = process.env.HOST || "localhost";
 var address = process.env.ADDRESS;
 
 var miner = new Miner(address);

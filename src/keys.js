@@ -1,3 +1,4 @@
+"use strict";
 const Crypto = require('crypto');
 const ecc_curve = 'secp256k1';
 

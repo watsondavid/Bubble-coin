@@ -18,8 +18,8 @@ program
 /*
  *	Get Environment variables.
  */
-var port = parseInt(process.env.PORT) || 8081;
-var host = process.env.HOST || localhost;
+var port = parseInt(process.env.PORT) || 8080;
+var host = process.env.HOST || "localhost";
 
 var wallet;
 var createNewWallet = () => {
